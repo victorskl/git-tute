@@ -78,17 +78,23 @@ There are two workflows:
 	(working more on myfile.md)
 	...
 	...
-	git commit -m "fix #1: myfile.md completed"
+	git commit -m "issue #1: myfile.md completed, ready for PR (pull request)"
 	```
-	- Side note: check GitHub help for [closing issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
+	
+	- After done with the feature, you have to create a [Pull Request](https://github.com/victorskl/git-tute/pulls) to the base `develop` branch from your topic branch.
 
-	- After done with the feature, you shall create a [Pull Request](https://github.com/victorskl/git-tute/pulls) against to the `develop` branch from your topic branch.
+	![github_pullrequest_1.png](https://www.dropbox.com/s/rkzwurzuuxjqc0e/github_pullrequest_1.png?raw=1)
+
 
 - When creating a **Pull Request**, add a respective **code reviewer**. At least, **1 reviewer required to merge** into the `develop` branch.
 
+	![github_pullrequest_2.png](https://www.dropbox.com/s/bpitjcbyc2vfg4w/github_pullrequest_2.png?raw=1)
+
+- Side note: check GitHub help for [closing issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/) in the comment.
+
 - At this point, fix if there exist any Unit Test or Integration Test failure. Otherwise you as a developer role is completed. The next phase will be carried out by the DevOps.
 
-- Delete the topic branch.
+- Delete the topic branch. (Optinal) Or you may keep it for awhile then eventually delete it.
 
 #### DevOps CI/CD
 
