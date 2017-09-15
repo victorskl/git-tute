@@ -78,7 +78,10 @@ There are two workflows:
 	(working more on myfile.md)
 	...
 	...
-	git commit -m "issue #1: myfile.md completed, ready for PR (pull request)"
+	git status
+	git add myfile.md
+	git commit -m "issue #1: completed myfile.md. Ready for PR (pull request)."
+	git push
 	```
 	
 	- After done with the feature, you have to create a [Pull Request](https://github.com/victorskl/git-tute/pulls) to the base `develop` branch from your topic branch.
