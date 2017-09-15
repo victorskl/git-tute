@@ -72,7 +72,7 @@ There are two workflows:
 	(make sure you are on the topic branch)
 	git add .
 	git commit -m "issue #1: Initial myfile.md commit"
-	git push
+	git push --set-upstream origin feature/workflow
 	...
 	...
 	(working more on myfile.md)
